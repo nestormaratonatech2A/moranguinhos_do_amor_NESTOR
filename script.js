@@ -14,28 +14,58 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     const securityLink = document.getElementById('security-link');
-    let clickCount = 0;
-    let clickTimer = null;
 
+    // Detector robusto de clique/pressão tripla.
     if (securityLink) {
-        securityLink.addEventListener('click', (event) => {
-            event.preventDefault(); // Impede a navegação
-            clickCount++;
+        // Modo de depuração — ativa logs detalhados quando true
+        const DEBUG = false; // coloque true para logs durante testes
 
-            if (clickTimer) {
-                clearTimeout(clickTimer);
+        let pressCount = 0;
+        let pressTimer = null;
+        // Janela menor para detecção (mais responsiva). Ajuste se necessário.
+        const WINDOW_MS = 1000; // ms
+
+        const handlePress = (event) => {
+            // Evita comportamento padrão (navegação)
+            event.preventDefault();
+
+            pressCount++;
+
+            if (DEBUG) {
+                console.debug(`[triple-press] event=${event.type} time=${Date.now()} count=${pressCount}`);
             }
 
-            clickTimer = setTimeout(() => {
-                clickCount = 0;
-            }, 1500); // Reseta a contagem após 1.5 segundos
+            if (pressTimer) {
+                clearTimeout(pressTimer);
+            }
 
-            if (clickCount === 3) {
-                console.log("Ligando para emergência...");
+            // Reseta a contagem após WINDOW_MS
+            pressTimer = setTimeout(() => {
+                if (DEBUG) console.debug('[triple-press] reset count');
+                pressCount = 0;
+                pressTimer = null;
+            }, WINDOW_MS);
+
+            if (pressCount === 3) {
+                if (DEBUG) console.debug('[triple-press] acionado: ligando para emergência');
+                // Ação desejada ao detectar 3 pressões rápidas
                 window.location.href = 'tel:190';
-                clickCount = 0; // Reseta a contagem
-                clearTimeout(clickTimer);
+
+                // Limpa estado
+                pressCount = 0;
+                if (pressTimer) {
+                    clearTimeout(pressTimer);
+                    pressTimer = null;
+                }
             }
-        });
+        };
+
+        // Usar pointerdown garante suporte a toque e mouse.
+        securityLink.addEventListener('pointerdown', handlePress);
+
+        // Previne navegação padrão caso o elemento seja um link.
+        securityLink.addEventListener('click', (e) => e.preventDefault());
     }
+
 });
+                            clearTimeout(pressTimer);
