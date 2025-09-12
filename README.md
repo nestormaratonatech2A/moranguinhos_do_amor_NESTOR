@@ -8,6 +8,10 @@ Alunos(as):
 - 🍓Lívia Fernanda Santos da Costa - 2A;
 - 🍓Carlos Silvério Gonçalves - 3B.
 
+## Professores 
+👨‍🏫 Felipe Rodrigues dos Santos
+👨‍🏫 João Vitor Solano
+
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![GitHub stars](https://img.shields.io/github/stars/artigliotturni04-dotcom/sara)
 ![GitHub forks](https://img.shields.io/github/forks/artigliotturni04-dotcom/sara)
