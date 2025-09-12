@@ -204,3 +204,8 @@ graph TD
     G --> K;
     D1 --> K;
 ```
+
+<h1>☎️</h1> Para dúvidas, sugestões ou relatar problemas:
+- **Email do grupo**: nestormaratonatech@gmail.com
+- **Resposnsável PEC TECNOLOGIA Davi Antonino Nunes da Silva URESER**
+- **E-mail PEC: davi.silva@educacao.sp.gov.br**
