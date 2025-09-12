@@ -177,34 +177,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 ```
 
-## 📊 Estrutura e Fluxograma de Ação
-
-O diagrama abaixo ilustra como o usuário interage com o site e como os gatilhos de emergência são acionados.
-
-```mermaid
-graph TD
-    A[Início: Usuária acessa o site] --> B{Navega pela página};
-
-    B --> C1[Clica em um item comum do cardápio];
-    C1 --> D1[Nenhuma ação especial ocorre];
-
-    B --> C2["Clica em um 'item gatilho' (ex: X-Tudo Especial)"];
-    C2 --> E{Abre pop-up: "Ligar para 190?"};
-    E --> F1[Usuária clica em "Cancelar"];
-    F1 --> G[Ação interrompida];
-    E --> F2[Usuária clica em "OK"];
-    F2 --> H[Tenta iniciar chamada para 190];
-
-    B --> C3["Clica no link 'Conta e Segurança' no rodapé"];
-    C3 --> I{Foi o 3º clique rápido?};
-    I -- Não --> J[Contador de cliques aumenta. Aguarda próximo clique];
-    I -- Sim --> H;
-
-    H --> K[Fim do fluxo];
-    G --> K;
-    D1 --> K;
-```
-
 ### `☎️ Para dúvidas, sugestões ou relatar problemas:`
 ```
 # Email do grupo: nestormaratonatech@gmail.com
