@@ -2,11 +2,9 @@
 PEI EE Profº Nestor Gomes de Araujo
 Trabalho desenvolvido para a Maratona TECH - 2025
 Alunos(as):
-- 🍓Sara Cristina Branco da Silva - 2A;
-- 🍓Luana Gabriele Pereira da Rocha - 2A;
-- 🍓Giovana Lemes Boaventura - 2A;
-- 🍓Lívia Fernanda Santos da Costa - 2A;
-- 🍓Carlos Silvério Gonçalves - 3B.
+- 🍓Sara Cristina Branco da Silva - 3ºA
+- 🍓Luana Gabriele Pereira da Rocha - 3ºA
+- 🍓Giovana Lemes Boaventura - 3ºA
 
 ## Professores 
 👨‍🏫 Felipe Rodrigues dos Santos
