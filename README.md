@@ -1,4 +1,4 @@
-# 🍓🍓🍓🍓🍓 Grupo - "Moranguinhos do Amor" 🍓🍓🍓🍓🍓
+# 🍓🍓 Grupo - "Moranguinhos do Amor" 🍓🍓
 PEI EE Profº Nestor Gomes de Araujo
 Trabalho desenvolvido para a Maratona TECH - 2025
 Alunos(as):
