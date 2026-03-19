@@ -1,10 +1,11 @@
 # 🍓🍓 Grupo - "Moranguinhos do Amor" 🍓🍓
-PEI EE Profº Nestor Gomes de Araujo
-Trabalho desenvolvido para a Maratona TECH - 2025
-Alunos(as):
-- 🍓Sara Cristina Branco da Silva - 3ºA
-- 🍓Luana Gabriele Pereira da Rocha - 3ºA
-- 🍓Giovana Lemes Boaventura - 3ºA
+Projeto: Maratona TECH 2025
+Escola: PEI E.E. Professor Nestor Gomes de Araújo
+
+Equipe de Desenvolvimento:
+🍓 Sara Cristina Branco da Silva — 3º Ano A
+🍓 Luana Gabriele Pereira da Rocha — 3º Ano A
+🍓 Giovana Lemes Boaventura — 3º Ano A
 
 ## Professores 
 👨‍🏫 Felipe Rodrigues dos Santos
