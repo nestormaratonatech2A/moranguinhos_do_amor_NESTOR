@@ -4,6 +4,8 @@ Projeto: Maratona TECH 2025
 
 Escola: PEI E.E. Professor Nestor Gomes de Araújo🏫
 
+Nome do Projeto: Nestor Food
+
 Equipe de Desenvolvimento:
 
 🍓 Sara Cristina Branco da Silva — 3º Ano A
