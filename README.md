@@ -4,7 +4,9 @@ Escola: PEI E.E. Professor Nestor Gomes de Araújo
 
 Equipe de Desenvolvimento:
 🍓 Sara Cristina Branco da Silva — 3º Ano A
+
 🍓 Luana Gabriele Pereira da Rocha — 3º Ano A
+
 🍓 Giovana Lemes Boaventura — 3º Ano A
 
 ## Professores 
