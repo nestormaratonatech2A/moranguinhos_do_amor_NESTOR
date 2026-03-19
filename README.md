@@ -1,5 +1,7 @@
 # 🍓🍓 Grupo - "Moranguinhos do Amor" 🍓🍓
+
 Projeto: Maratona TECH 2025
+
 Escola: PEI E.E. Professor Nestor Gomes de Araújo
 
 Equipe de Desenvolvimento:
