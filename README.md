@@ -29,12 +29,12 @@ A ideia é que a vítima, coagida em casa e sem poder fazer uma ligação, possa
 ## 🤫 Como Funciona?
 O Nestor Food utiliza uma interface simulada de delivery para garantir a discrição e segurança da usuária em situações de risco. O sistema opera através de gatilhos ocultos em elementos comuns de um cardápio:
 
-📱 Gatilhos de Emergência
+## 📱 Gatilhos de Emergência
 Ao interagir com itens específicos do menu, o sistema redireciona automaticamente para o discador do smartphone, já preenchido com o número 190 (Polícia Militar):
 
-Itens do Cardápio: O clique nos produtos X-tudo Especial da Casa, Lanchão Premium ou Combo Família Feliz aciona o comando de chamada imediata.
+.Itens do Cardápio: O clique nos produtos X-tudo Especial da Casa, Lanchão Premium ou Combo Família Feliz aciona o comando de chamada imediata.
 
-Acesso de Segurança: Como camada adicional, o clique sequencial (3 vezes) na opção "Conta e Segurança" também ativa o direcionamento para o discador.
+.Acesso de Segurança: Como camada adicional, o clique sequencial (3 vezes) na opção "Conta e Segurança" também ativa o direcionamento para o discador.
 
 Nota: A interface de "pedido de comida" serve como um disfarce visual, permitindo que a usuária peça ajuda sem levantar suspeitas de um possível agressor.
 
