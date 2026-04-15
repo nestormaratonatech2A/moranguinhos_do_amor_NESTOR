@@ -67,5 +67,16 @@ document.addEventListener('DOMContentLoaded', () => {
         securityLink.addEventListener('click', (e) => e.preventDefault());
     }
 
+    // Função de saída rápida
+    function quickExit() {
+        window.open("https://www.google.com", "_blank");
+    }
+
+    // Adicionar evento ao botão de pânico
+    const panicButton = document.getElementById('panic-button');
+    if (panicButton) {
+        panicButton.addEventListener('click', quickExit);
+    }
+
 });
                             clearTimeout(pressTimer);
